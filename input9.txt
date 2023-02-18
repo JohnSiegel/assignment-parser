@@ -1,0 +1,6 @@
+X = ~2 & 1
+Y = (X | 8) & ~X ^ 4
+Z = Y & (~X ^ ~Y)
+XX = X ^ Y ^ ~Z
+YY = (~(XX & Y) & ~Z) | ~(XX ^ ~Y & X)
+ZZ = (X | Y & Z) ^ (~XX & ~YY) | (Z & YY)

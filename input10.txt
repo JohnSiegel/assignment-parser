@@ -1,0 +1,11 @@
+one = 2 & 3
+two = one | 4
+three = 2 & (3 | 4)
+four = (~5 | 9) ^ 2
+five = ~four | 1
+six = (1 | (2 & ~7) ^ (~3 & 8 | 6) & (~(4 | 6) & 9))
+seven = 1 | 2 ^ 3 & ~4
+eight = ~(3 ^ 4) | 6 ^ 8 & 2
+nine = 1 | 5 ^ ~(6 & ~7) ^ 8
+ten = 2 & 4 | ~3 ^ 7
+eleven = one & two | three ^ four | ~five | six & ~(seven | eight) & nine | ~ten

@@ -1,0 +1,5 @@
+hokie = 4
+vt = ~(hokie ^ 7)
+hoos = 2
+cs = ~(vt ^ 4)
+ChatGPT = hoos & hokie | vt ^ cs
